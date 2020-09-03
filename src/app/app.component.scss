@@ -1,0 +1,41 @@
+body {
+  font-size: 1.6em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  line-height: 1.6;
+  font-family: Open Sans, sans-serif;
+  background-color: #fffffa;
+}
+
+.bold {
+  font-weight: 600;
+  font-size: 1.8 rem;
+}
+
+.mainAside {
+  position: fixed;
+  text-align: center;
+  left: auto;
+  top: auto;
+  display: block;
+  background-color: #3f3b37;
+  padding: 5% 5% 0% 5%;
+  height: 100%;
+  width: 20%;
+
+  .about {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: lightgrey;
+
+    .cvPicture {
+      width: 180px;
+      max-width: 280px;
+      height: 180px;
+      border-radius: 50%;
+    }
+  }
+}
